@@ -32,7 +32,7 @@ const Analytics = () => {
     //   </div>
     // </div>
     <div id="about" className="w-full text-black bg-white pt-16">
-      <div className=" mx-auto max-w-[1240px]">
+      <div className=" px-8 mx-auto max-w-[1240px]">
         <div className=" text-center">
           <h1 className="text-4xl font-bold">What We Do</h1>
           <h3 className=" font-medium text-3xl my-8 md:w-[60%] mx-auto">
@@ -78,7 +78,7 @@ const Analytics = () => {
           </ScrollAnimation>
         </div>
       </div>
-      <div className=" mt-16 bg-black text-white py-16">
+      <div className=" px-6 mt-16 bg-black text-white py-16">
         <div className="max-w-[1240px] mx-auto">
           <div className="text-center">
             <h1 className="font-semibold text-5xl my-4">

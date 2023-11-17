@@ -10,7 +10,7 @@ const Testimonials = () => {
           Testimonial
         </h1>
         <div>
-          <div className="md:flex justify-center bg-white rounded-3xl mb-8 p-4 mx-auto items-center md:gap-8">
+          <div className="md:flex justify-center px-8 bg-white rounded-3xl mb-8 p-4 mx-auto items-center md:gap-8">
             <div className="md:w-[50%]">
               <h1 className="font-semibold text-gray-700 text-xl mx-auto">
                 The website has made speedy progress and ranks numerously on the

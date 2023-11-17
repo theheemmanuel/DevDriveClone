@@ -6,7 +6,7 @@ const Cards = () => {
   return (
     <div
       id="plans"
-      className="w-full py-[10rem] px-4 min:h-[100vh] bg-white text-black"
+      className="w-full py-12 px-4 min:h-[100vh] bg-white text-black"
     >
       <ScrollAnimation animateIn="bounceInDown" animateOut="fadeIn">
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
