@@ -5,7 +5,7 @@ import Frame3 from "../assets/Frame (8).png";
 import Frame4 from "../assets/S1.png";
 import Frame5 from "../assets/S2.png";
 import Frame6 from "../assets/S3.png";
-import ScrollAnimation from "react-animate-on-scroll";
+// import ScrollAnimation from "react-animate-on-scroll";
 
 const Analytics = () => {
   return (
@@ -41,18 +41,16 @@ const Analytics = () => {
           </h3>
         </div>
         <div className="flex md:flex-row flex-col justify-center gap-10">
-          <ScrollAnimation animateIn="tada" delay={200}>
-            <div className="shadow-2xl rounded-3xl p-4 my-4">
-              <img className="w-12 mx-auto bg-white" src={Frame1} alt="" />
-              <h1 className="text-center font-semibold text-2xl text-black my-4">
-                Web Developement
-              </h1>
-              <p className="text-xl text-gray-700 p-4">
-                The world is digital and your brand should be too. let's work
-                with you to create a top digital platform for your brand.
-              </p>
-            </div>
-          </ScrollAnimation>
+          <div className="shadow-2xl rounded-3xl p-4 my-4">
+            <img className="w-12 mx-auto bg-white" src={Frame1} alt="" />
+            <h1 className="text-center font-semibold text-2xl text-black my-4">
+              Web Developement
+            </h1>
+            <p className="text-xl text-gray-700 p-4">
+              The world is digital and your brand should be too. let's work with
+              you to create a top digital platform for your brand.
+            </p>
+          </div>
           <div className="shadow-2xl rounded-3xl p-4">
             <img className="w-12 mx-auto bg-white" src={Frame2} alt="" />
             <h1 className="text-center font-semibold text-2xl text-black my-4">
@@ -64,18 +62,16 @@ const Analytics = () => {
               provider for that.
             </p>
           </div>
-          <ScrollAnimation animateIn="tada" delay={200}>
-            <div className="shadow-2xl rounded-3xl p-4 my-4">
-              <img className="w-12 mx-auto bg-white" src={Frame3} alt="" />
-              <h1 className="text-center font-semibold text-2xl text-black my-4">
-                IT Consultancy
-              </h1>
-              <p className="text-xl text-gray-700">
-                DevDrive offers top IT Consultancy for your organisation &
-                training services for your team & users.
-              </p>
-            </div>
-          </ScrollAnimation>
+          <div className="shadow-2xl rounded-3xl p-4 my-4">
+            <img className="w-12 mx-auto bg-white" src={Frame3} alt="" />
+            <h1 className="text-center font-semibold text-2xl text-black my-4">
+              IT Consultancy
+            </h1>
+            <p className="text-xl text-gray-700">
+              DevDrive offers top IT Consultancy for your organisation &
+              training services for your team & users.
+            </p>
+          </div>
         </div>
       </div>
       <div className=" mt-16 bg-black text-white py-16">
@@ -91,42 +87,36 @@ const Analytics = () => {
             </p>
           </div>
           <div className="flex justify-center mt-16 flex-wrap gap-6">
-            <ScrollAnimation animateIn="flipInY" animateOut="fadeOut">
-              <div className="rounded-3xl w-[370px] border border-[#141F72] px-6 py-14 hover:scale-105 duration-300 text-center shadow-inner shadow-[#00DF9a] bg-white">
-                <img className="w-18 mx-auto bg-white" src={Frame4} alt="" />
-                <h1 className="text-[#141F72] text-xl mb-6 font-semibold">
-                  Gain Digital Advantage
-                </h1>
-                <p className="text-[#666666] font-medium">
-                  DevDrive employs the use of innovative strategies to position
-                  your brand to stand out in the digital space.
-                </p>
-              </div>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="bounceInDown">
-              <div className="rounded-3xl w-[370px] border border-[#141F72] px-6 py-14 hover:scale-105 duration-300 text-center shadow-inner shadow-[#00DF9a] bg-white">
-                <img className="w-18 mx-auto bg-white" src={Frame5} alt="" />
-                <h1 className="text-[#141F72] text-xl mb-6 font-semibold">
-                  Result-Oriented Solutions
-                </h1>
-                <p className="text-[#666666] font-medium">
-                  Using strategic insights, solutions are dosigned to achieve
-                  your business goals.
-                </p>
-              </div>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="flipInY" animateOut="fadeOut">
-              <div className="rounded-3xl w-[370px] border border-[#141F72] px-6 py-10 hover:scale-105 duration-300 text-center shadow-inner shadow-[#00DF9a] bg-white">
-                <img className="w-18 mx-auto bg-white" src={Frame6} alt="" />
-                <h1 className="text-[#141F72] text-xl mb-6 font-semibold">
-                  Working with Your Audience in Mind
-                </h1>
-                <p className="text-[#666666] font-medium">
-                  Your audience is the goal and we achieve this by taking the
-                  position of your audience to develop a working solution.
-                </p>
-              </div>
-            </ScrollAnimation>
+            <div className="rounded-3xl w-[370px] border border-[#141F72] px-6 py-14 hover:scale-105 duration-300 text-center shadow-inner shadow-[#00DF9a] bg-white">
+              <img className="w-18 mx-auto bg-white" src={Frame4} alt="" />
+              <h1 className="text-[#141F72] text-xl mb-6 font-semibold">
+                Gain Digital Advantage
+              </h1>
+              <p className="text-[#666666] font-medium">
+                DevDrive employs the use of innovative strategies to position
+                your brand to stand out in the digital space.
+              </p>
+            </div>
+            <div className="rounded-3xl w-[370px] border border-[#141F72] px-6 py-14 hover:scale-105 duration-300 text-center shadow-inner shadow-[#00DF9a] bg-white">
+              <img className="w-18 mx-auto bg-white" src={Frame5} alt="" />
+              <h1 className="text-[#141F72] text-xl mb-6 font-semibold">
+                Result-Oriented Solutions
+              </h1>
+              <p className="text-[#666666] font-medium">
+                Using strategic insights, solutions are dosigned to achieve your
+                business goals.
+              </p>
+            </div>
+            <div className="rounded-3xl w-[370px] border border-[#141F72] px-6 py-10 hover:scale-105 duration-300 text-center shadow-inner shadow-[#00DF9a] bg-white">
+              <img className="w-18 mx-auto bg-white" src={Frame6} alt="" />
+              <h1 className="text-[#141F72] text-xl mb-6 font-semibold">
+                Working with Your Audience in Mind
+              </h1>
+              <p className="text-[#666666] font-medium">
+                Your audience is the goal and we achieve this by taking the
+                position of your audience to develop a working solution.
+              </p>
+            </div>
           </div>
         </div>
       </div>
