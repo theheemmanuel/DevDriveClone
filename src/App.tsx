@@ -14,6 +14,7 @@ function App() {
       <Hero />
       <Analytics />
       <Cards />
+      <Hero />
       <Testimonials />
       <Newsletter />
       <Footer />
