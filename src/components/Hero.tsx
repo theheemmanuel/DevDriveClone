@@ -1,5 +1,5 @@
 // import React from "react";
-// import Typed from "react-typed";
+import Typed from "react-typed";
 
 const Hero = () => {
   return (
@@ -10,13 +10,13 @@ const Hero = () => {
         </p>
         <h1 className="md:text-6xl sm:text-5xl text-4xl font-bold py-6">
           Take Your brand to the Next{" "}
-          {/* <Typed
+          <Typed
             className="text-[#00DF9a]"
             strings={["Stage.", "Phase.", "Level.", "Magnitude."]}
             typeSpeed={150}
             backSpeed={100}
             loop
-          /> */}
+          />
         </h1>
         {/* <div>
           <p className="md:text-4xl sm:text-3xl text-xl font-bold py-4">
