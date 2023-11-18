@@ -6,7 +6,7 @@ const Testimonials = () => {
   return (
     <div id="testimonials" className="bg-[#00DF9a] text-black p-4">
       <div className=" mx-auto max-w-[1240px]">
-        <h1 className="text-center text-white font-bold text-5xl py-8 underline">
+        <h1 className="text-center text-white font-black text-3xl py-8">
           Testimonial
         </h1>
         <div>

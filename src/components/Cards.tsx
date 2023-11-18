@@ -14,7 +14,7 @@ const Cards = () => {
             <h2 className="text-2xl font-bold text-center py-6">
               Starter Plan
             </h2>
-            <p className="text-center font-bold text-4xl">$300</p>
+            <p className="text-center font-bold text-2xl">$300</p>
             <div className="text-center font-medium">
               <p className="py-1 border-b-2 mx-8 mt-8 border-t-2">
                 Fully-Featured Custom Website
@@ -54,7 +54,7 @@ const Cards = () => {
             <h2 className="text-2xl font-bold text-center py-6">
               Business Plan
             </h2>
-            <p className="text-center font-bold text-4xl">$600</p>
+            <p className="text-center font-bold text-2xl">$600</p>
             <div className="text-center font-medium">
               <p className="py-2 border-b-2 mx-8 mt-8 border-t-2">
                 All Features in the Starter Plan
@@ -67,7 +67,7 @@ const Cards = () => {
                 Full Designed and Featured to suit your needs
               </p>
               <p className="py-2 border-b-2 mx-8">
-                Markwting copies that scales your needs
+                Marketing copies that scales your needs
               </p>
               <p className="py-2 border-b-2 mx-8">
                 Training on Website Developement
@@ -86,7 +86,7 @@ const Cards = () => {
             </button>
           </div>
           <div className="w-full shadow-xl flex flex-col my-4 p-4 rounded-lg hover:scale-105 hover:bg-gray-300 duration-500">
-            <h2 className="text-4xl font-bold text-center py-6">Custom Plan</h2>
+            <h2 className="text-2xl font-bold text-center py-6">Custom Plan</h2>
             {/* <p className="text-center font-bold text-4xl">$600</p> */}
 
             <div className="text-center font-medium">
