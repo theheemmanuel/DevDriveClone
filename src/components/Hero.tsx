@@ -12,7 +12,7 @@ const Hero = () => {
           Take Your brand to the Next{" "}
           <Typed
             className="text-[#00DF9a]"
-            strings={["Stage.", "Phase.", "Level.", "Magnitude."]}
+            strings={["Stage.", "Phase.", "Level."]}
             typeSpeed={150}
             backSpeed={100}
             loop

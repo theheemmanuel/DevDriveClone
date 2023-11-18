@@ -33,13 +33,15 @@ const Analytics = () => {
     // </div>
     <div id="about" className="w-full text-black bg-white pt-16">
       <div className=" px-8 mx-auto max-w-[1240px]">
-        <div className=" text-center">
-          <h1 className="text-4xl font-bold">What We Do</h1>
-          <h3 className=" font-medium text-3xl my-8 md:w-[60%] mx-auto">
-            Sometimes, all you have to do is is give up the good to attain the
-            great!
-          </h3>
-        </div>
+        <ScrollAnimation animateIn="flipInY" animateOut="fadeOut">
+          <div className=" text-center">
+            <h1 className="text-4xl font-bold">What We Do</h1>
+            <h3 className=" font-semibold text-xl my-8 md:w-[60%] mx-auto">
+              Sometimes, all you have to do is is give up the good to attain the
+              great!
+            </h3>
+          </div>
+        </ScrollAnimation>
         <div className="flex md:flex-row flex-col justify-center gap-10">
           <ScrollAnimation animateIn="tada" delay={200}>
             <div className="shadow-2xl rounded-3xl p-4 my-4">
@@ -85,7 +87,7 @@ const Analytics = () => {
               Bring <span className="italic text-[#ff9041]">Innovation</span> to
               Your Company
             </h1>
-            <p className="w-[60%] max-lg:w-[95%] mx-auto text-md lg:text-lg">
+            <p className="w-[60%] max-lg:w-[95%] mx-auto lg:text-lg">
               Employ the services of a top IT & Web Development Agency to start
               the journey towards success and improve your business revenue.
             </p>

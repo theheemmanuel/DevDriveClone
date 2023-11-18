@@ -87,7 +87,7 @@ const footer = () => {
         </div>
         <div className=" border-b-2"></div>
         <div>
-          <h1 className="text-black font-medium text-2xl py-4">
+          <h1 className="text-black font-medium py-4">
             © 2023 DevDrive | Powered by DevDrive
           </h1>
         </div>

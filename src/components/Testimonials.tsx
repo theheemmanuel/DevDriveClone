@@ -12,7 +12,7 @@ const Testimonials = () => {
         <div>
           <div className="md:flex justify-center px-8 bg-white rounded-3xl mb-8 p-4 mx-auto items-center md:gap-8">
             <div className="md:w-[50%]">
-              <h1 className="font-semibold text-gray-700 text-xl mx-auto">
+              <h1 className="font-medium text-gray-700 italic mx-auto">
                 The website has made speedy progress and ranks numerously on the
                 first page of Google SERPs. Our website traffic is ever-growing,
                 and that has opened doors for more clients for our coaching
@@ -22,10 +22,10 @@ const Testimonials = () => {
                 have a professional website that has boosted our sales capacity
                 tremendously.
               </h1>
-              <h1 className="mt-4 font-bold text-gray-700 text-2xl max-md:text-center">
+              <h1 className="mt-4 font-bold text-gray-700 text-xl max-md:text-center">
                 Ruth Adeyemi
               </h1>
-              <h1 className="font-semibold italic text-2xl max-md:text-center">
+              <h1 className="font-semibold italic max-md:text-center">
                 Founder of SARMLife
               </h1>
             </div>
