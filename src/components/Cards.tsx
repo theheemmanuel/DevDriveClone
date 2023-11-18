@@ -8,8 +8,8 @@ const Cards = () => {
       id="plans"
       className="w-full py-12 px-4 min:h-[100vh] bg-white text-black"
     >
-      <ScrollAnimation animateIn="bounceInDown" animateOut="fadeIn">
-        <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
+      <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
+        <ScrollAnimation animateIn="bounceInDown" animateOut="fadeIn">
           <div className="w-full shadow-xl flex flex-col my-4 p-4 rounded-lg hover:scale-105 duration-500 hover:bg-gray-300">
             <h2 className="text-2xl font-bold text-center py-6">
               Starter Plan
@@ -50,6 +50,9 @@ const Cards = () => {
               </a>
             </button>
           </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="bounceInDown" animateOut="fadeIn">
           <div className="bg-gray-100 w-full shadow-xl flex flex-col md:my-0 my-4 p-4 rounded-lg hover:scale-105 hover:bg-white duration-500">
             <h2 className="text-2xl font-bold text-center py-6">
               Business Plan
@@ -85,6 +88,9 @@ const Cards = () => {
               </a>
             </button>
           </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="bounceInDown" animateOut="fadeIn">
           <div className="w-full shadow-xl flex flex-col my-4 p-4 rounded-lg hover:scale-105 hover:bg-gray-300 duration-500">
             <h2 className="text-2xl font-bold text-center py-6">Custom Plan</h2>
             {/* <p className="text-center font-bold text-4xl">$600</p> */}
@@ -102,8 +108,8 @@ const Cards = () => {
               <a href="mailto:micah@devdrive.xyz">Choose Plan</a>
             </button>
           </div>
-        </div>
-      </ScrollAnimation>
+        </ScrollAnimation>
+      </div>
     </div>
   );
 };

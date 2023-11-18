@@ -33,7 +33,7 @@ const Analytics = () => {
     // </div>
     <div id="about" className="w-full text-black bg-white pt-16">
       <div className=" px-8 mx-auto max-w-[1240px]">
-        <ScrollAnimation animateIn="flipInY" animateOut="fadeOut">
+        <ScrollAnimation animateIn="bounceInDown" animateOut="fadeOut">
           <div className=" text-center">
             <h1 className="text-4xl font-bold">What We Do</h1>
             <h3 className=" font-semibold text-xl my-8 md:w-[60%] mx-auto">
@@ -105,7 +105,7 @@ const Analytics = () => {
                 </p>
               </div>
             </ScrollAnimation>
-            <ScrollAnimation animateIn="bounceInDown">
+            <ScrollAnimation animateIn="flipInX">
               <div className="rounded-3xl w-[370px] border border-[#141F72] px-6 py-14 hover:scale-105 duration-300 text-center shadow-inner shadow-[#00DF9a] bg-white">
                 <img className="w-18 mx-auto bg-white" src={Frame5} alt="" />
                 <h1 className="text-[#141F72] text-xl mb-6 font-semibold">
