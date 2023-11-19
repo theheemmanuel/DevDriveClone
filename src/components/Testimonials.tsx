@@ -30,7 +30,7 @@ const Testimonials = () => {
               </h1>
             </div>
             <img
-              className="w-[350px] rounded-3xl max-md:mx-auto flex-[0.7]"
+              className="w-[350px] rounded-3xl max-md:mx-auto flex-[0.5]"
               src={Frame8}
               alt=""
             />
