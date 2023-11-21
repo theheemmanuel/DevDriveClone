@@ -31,7 +31,10 @@ const Analytics = () => {
     //     </div>
     //   </div>
     // </div>
-    <div id="about" className="w-full text-black bg-white pt-16">
+    <div
+      id="about"
+      className="w-full bg-black dark:bg-white dark:text-black text-white pt-16"
+    >
       <div className=" px-8 mx-auto max-w-[1240px]">
         <ScrollAnimation animateIn="bounceInDown" animateOut="fadeOut">
           <div className=" text-center">
@@ -44,35 +47,35 @@ const Analytics = () => {
         </ScrollAnimation>
         <div className="flex md:flex-row flex-col justify-center gap-10">
           <ScrollAnimation animateIn="tada" delay={200}>
-            <div className="shadow-2xl rounded-3xl p-4 my-4">
+            <div className="shadow-sm shadow-white dark:shadow-xl rounded-3xl p-4 my-4">
               <img className="w-12 mx-auto bg-white" src={Frame1} alt="" />
-              <h1 className="text-center font-semibold text-2xl text-black my-4">
+              <h1 className="text-center font-semibold text-2xl dark:text-black my-4">
                 Web Developement
               </h1>
-              <p className="text-xl text-gray-700 p-4">
+              <p className="text-xl dark:text-gray-700  p-4">
                 The world is digital and your brand should be too. let's work
                 with you to create a top digital platform for your brand.
               </p>
             </div>
           </ScrollAnimation>
-          <div className="shadow-2xl rounded-3xl p-4">
+          <div className="shadow-sm shadow-white dark:shadow-xl rounded-3xl p-4">
             <img className="w-12 mx-auto bg-white" src={Frame2} alt="" />
-            <h1 className="text-center font-semibold text-2xl text-black my-4">
+            <h1 className="text-center font-semibold text-2xl dark:text-black my-4">
               Mobile Developement
             </h1>
-            <p className="text-xl text-gray-700 p-4">
+            <p className="text-xl dark:text-gray-700 p-4">
               The world is evolving and you need to be easily accessible
               everywhere people go with on their devices and we are your best
               provider for that.
             </p>
           </div>
           <ScrollAnimation animateIn="tada" delay={200}>
-            <div className="shadow-2xl rounded-3xl p-4 my-4">
+            <div className="shadow-sm shadow-white dark:shadow-xl rounded-3xl p-4 my-4">
               <img className="w-12 mx-auto bg-white" src={Frame3} alt="" />
-              <h1 className="text-center font-semibold text-2xl text-black my-4">
+              <h1 className="text-center font-semibold text-2xl dark:text-black my-4">
                 IT Consultancy
               </h1>
-              <p className="text-xl text-gray-700">
+              <p className="text-xl dark:text-gray-700">
                 DevDrive offers top IT Consultancy for your organisation &
                 training services for your team & users.
               </p>
