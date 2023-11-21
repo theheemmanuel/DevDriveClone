@@ -10,7 +10,7 @@ const Cards = () => {
         className="w-full py-12 bg-white dark:bg-gray-200 px-4 min:h-[100vh] text-black"
       >
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
-          <ScrollAnimation animateIn="bounceInDown" animateOut="fadeIn">
+          <ScrollAnimation animateIn="bounceInDown" animateOut="fadeOut">
             <div className="w-full shadow-xl flex flex-col my-4 p-4 rounded-lg hover:scale-105 duration-500 hover:bg-gray-300">
               <h2 className="text-2xl font-bold text-center py-6">
                 Starter Plan
@@ -97,7 +97,7 @@ const Cards = () => {
             </div>
           </ScrollAnimation>
 
-          <ScrollAnimation animateIn="bounceInDown" animateOut="fadeIn">
+          <ScrollAnimation animateIn="bounceInDown" animateOut="fadeOut">
             <div className="w-full shadow-xl flex flex-col my-4 p-4 rounded-lg hover:scale-105 hover:bg-gray-300 duration-500">
               <h2 className="text-2xl font-bold text-center py-6">
                 Custom Plan
