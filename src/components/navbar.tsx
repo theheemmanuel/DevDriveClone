@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div
       id="home"
-      className="flex border-b items-center h-24 justify-between max-w-[1280px] px-6 mx-auto z-100"
+      className="dark:bg-black dark:text-white text-black bg-white flex dark:border-white border-b items-center h-24 justify-between max-w-[1280px] px-6 mx-auto z-100"
     >
       <h1 className="text-3xl font-bold text-[#00DF9a]">DevDrive.</h1>
       <ul className="flex max-md:hidden uppercase text-xl">
@@ -35,13 +35,17 @@ const Navbar = () => {
         }}
         className="md:hidden"
       >
-        {menu ? <AiOutlineClose size={30} /> : <CiMenuFries size={30} />}
+        {menu ? (
+          <AiOutlineClose color="#00DF9a" size={35} />
+        ) : (
+          <CiMenuFries color="#00DF9a" size={35} />
+        )}
       </div>
 
       <div
         className={
           menu
-            ? "fixed left-0 top-4 h-full p-4 w-[60%] text-center border-r md:hidden border-r-gray-900 bg-[#000300] ease-in-out duration-500"
+            ? "fixed left-0 top-0 pt-8 h-full dark:bg-black text-black dark:text-white bg-white p-4 w-[60%] text-center border-r md:hidden font-bold border-r-gray-900 ease-in-out duration-500"
             : "fixed left-[-100%]"
         }
       >
