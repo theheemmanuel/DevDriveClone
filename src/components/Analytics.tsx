@@ -33,7 +33,7 @@ const Analytics = () => {
     // </div>
     <div
       id="about"
-      className="w-full bg-black dark:bg-white dark:text-black text-white pt-16"
+      className="w-full bg-white dark:bg-gray-200 text-black pt-16"
     >
       <div className=" px-8 mx-auto max-w-[1240px]">
         <ScrollAnimation animateIn="bounceInDown" animateOut="fadeOut">
@@ -47,7 +47,7 @@ const Analytics = () => {
         </ScrollAnimation>
         <div className="flex md:flex-row flex-col justify-center gap-10">
           <ScrollAnimation animateIn="tada" delay={200}>
-            <div className="shadow-sm shadow-white dark:shadow-xl rounded-3xl p-4 my-4">
+            <div className="shadow-sm shadow-gray-900 dark:shadow-xl rounded-3xl p-4 my-4">
               <img className="w-12 mx-auto bg-white" src={Frame1} alt="" />
               <h1 className="text-center font-semibold text-2xl dark:text-black my-4">
                 Web Developement
@@ -58,7 +58,7 @@ const Analytics = () => {
               </p>
             </div>
           </ScrollAnimation>
-          <div className="shadow-sm shadow-white dark:shadow-xl rounded-3xl p-4">
+          <div className="shadow-sm shadow-gray-900 dark:shadow-xl rounded-3xl p-4">
             <img className="w-12 mx-auto bg-white" src={Frame2} alt="" />
             <h1 className="text-center font-semibold text-2xl dark:text-black my-4">
               Mobile Developement
@@ -70,7 +70,7 @@ const Analytics = () => {
             </p>
           </div>
           <ScrollAnimation animateIn="tada" delay={200}>
-            <div className="shadow-sm shadow-white dark:shadow-xl rounded-3xl p-4 my-4">
+            <div className="shadow-sm shadow-gray-900 dark:shadow-xl rounded-3xl p-4 my-4">
               <img className="w-12 mx-auto bg-white" src={Frame3} alt="" />
               <h1 className="text-center font-semibold text-2xl dark:text-black my-4">
                 IT Consultancy
@@ -83,7 +83,7 @@ const Analytics = () => {
           </ScrollAnimation>
         </div>
       </div>
-      <div className=" px-6 mt-16 bg-black text-white py-16">
+      <div className=" px-6 mt-16 dark:bg-black bg-white dark:text-white text-black py-16">
         <div className="max-w-[1240px] mx-auto">
           <div className="text-center">
             <h1 className="font-semibold text-5xl my-4">

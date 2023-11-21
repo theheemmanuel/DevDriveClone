@@ -78,7 +78,7 @@ const footer = () => {
     //     </div>
     //   </div>
     // </div>
-    <div className="bg-white text-center relative">
+    <div className="dark:bg-gray-100 bg-white text-center relative">
       <div className="max-w-[1240px] mx-auto ">
         <div className="py-8 px-4 flex justify-center">
           <a href="#home">

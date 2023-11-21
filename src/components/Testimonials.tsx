@@ -4,9 +4,12 @@ import Frame8 from "../assets/S5.png";
 const Testimonials = () => {
   // const [menu, notmenu] = useState(false);
   return (
-    <div id="testimonials" className="bg-[#00DF9a] text-black p-4">
+    <div
+      id="testimonials"
+      className="dark:bg-[#00DF9a] bg-gray-200 text-black p-4"
+    >
       <div className=" mx-auto max-w-[1240px]">
-        <h1 className="text-center text-white font-black text-3xl py-8">
+        <h1 className="text-center dark:text-white font-black text-3xl py-8">
           Testimonial
         </h1>
         <div>

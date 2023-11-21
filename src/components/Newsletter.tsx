@@ -2,7 +2,10 @@
 
 function Newsletter() {
   return (
-    <div id="contact" className="w-full text-white py-16">
+    <div
+      id="contact"
+      className="w-full dark:bg-black bg-white dark:text-white text-black py-16"
+    >
       <div className="max-w-[1240px] mx-auto">
         <div className="flex items-center justify-center mx-auto lg:gap-16 lg:flex-row flex-col">
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold mb-4">
