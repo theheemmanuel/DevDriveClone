@@ -3,7 +3,7 @@ import Typed from "react-typed";
 
 const Hero = () => {
   return (
-    <div className="dark:bg-black bg-white">
+    <div className="dark:bg-black bg-white ">
       <div className="max-w-[800px] w-full min-h-[92vh] mx-auto px-8 text-center flex flex-col justify-center">
         <p className="text-[#00DF9a] p-2 font-bold text-xl uppercase">
           expanding your online visibility
