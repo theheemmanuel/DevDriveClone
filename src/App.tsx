@@ -11,13 +11,13 @@ import { useState } from "react";
 function App() {
   const [darker, lighter] = useState(false);
   return (
-    <div className="dark">
+    <div className={darker ? "" : "dark"}>
       <div className="fixed bottom-4 left-2 z-50">
         <button
           onClick={() => {
             lighter(!darker);
           }}
-          className=" bg-black dark:bg-white border border-white text-2xl font-bold text-white py-2 px-2 dark:border-black dark:text-black rounded-full"
+          className=" bg-black dark:bg-white hover:scale-110 border border-white text-2xl font-bold text-white py-2 px-2 dark:border-black dark:text-black rounded-full"
         >
           {darker ? "DRK" : "LHT"}
         </button>
