@@ -11,7 +11,7 @@ import { useState } from "react";
 function App() {
   const [darker, lighter] = useState(false);
   return (
-    <div className={darker ? "" : "dark"}>
+    <div className="dark">
       <div className="fixed bottom-4 left-2 z-50">
         <button
           onClick={() => {
