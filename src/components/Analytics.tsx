@@ -47,7 +47,7 @@ const Analytics = () => {
         </ScrollAnimation>
         <div className="flex md:flex-row flex-col justify-center gap-10">
           <ScrollAnimation animateIn="tada" delay={200}>
-            <div className="shadow-sm shadow-gray-900 dark:shadow-xl rounded-3xl p-4 my-4">
+            <div className="shadow-sm dark:bg-white shadow-gray-900 dark:shadow-xl rounded-3xl p-4 my-4">
               <img className="w-12 mx-auto bg-white" src={Frame1} alt="" />
               <h1 className="text-center font-semibold text-2xl dark:text-black my-4">
                 Web Developement
@@ -58,7 +58,7 @@ const Analytics = () => {
               </p>
             </div>
           </ScrollAnimation>
-          <div className="shadow-sm shadow-gray-900 dark:shadow-xl rounded-3xl p-4">
+          <div className="shadow-sm shadow-gray-900 dark:bg-white dark:shadow-xl rounded-3xl p-4">
             <img className="w-12 mx-auto bg-white" src={Frame2} alt="" />
             <h1 className="text-center font-semibold text-2xl dark:text-black my-4">
               Mobile Developement
@@ -70,7 +70,7 @@ const Analytics = () => {
             </p>
           </div>
           <ScrollAnimation animateIn="tada" delay={200}>
-            <div className="shadow-sm shadow-gray-900 dark:shadow-xl rounded-3xl p-4 my-4">
+            <div className="shadow-sm shadow-gray-900 dark:bg-white dark:shadow-xl rounded-3xl p-4 my-4">
               <img className="w-12 mx-auto bg-white" src={Frame3} alt="" />
               <h1 className="text-center font-semibold text-2xl dark:text-black my-4">
                 IT Consultancy
