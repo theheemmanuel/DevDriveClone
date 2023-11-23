@@ -24,6 +24,7 @@ function App() {
       </div>
       <Navbar />
       <Hero />
+      <p className="w-full h-1 dark:bg-black bg-gray-200"></p>
       <Analytics />
       <Cards />
       <Testimonials />
