@@ -7,6 +7,8 @@ import Footer from "./components/footer";
 import "./App.css";
 import Testimonials from "./components/Testimonials";
 import { useState } from "react";
+import { MdOutlineDarkMode } from "react-icons/md";
+import { MdDarkMode } from "react-icons/md";
 
 function App() {
   const [darker, lighter] = useState(false);
@@ -17,9 +19,9 @@ function App() {
           onClick={() => {
             lighter(!darker);
           }}
-          className=" bg-black dark:bg-white hover:scale-110 border border-white text-2xl font-bold text-white py-2 px-2 dark:border-black dark:text-black rounded-full"
+          className=" bg-gray-300 dark:bg-white hover:scale-110 border border-white text-2xl font-bold text-white py-2 px-2 dark:border-black dark:text-black rounded-full"
         >
-          {darker ? "DRK" : "LHT"}
+          {darker ? <MdDarkMode color="black" /> : <MdOutlineDarkMode />}
         </button>
       </div>
       <Navbar />
