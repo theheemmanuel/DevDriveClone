@@ -23,7 +23,7 @@ const Cards = () => {
                 <p className="py-1 border-b-2 border-gray-300 mx-8">
                   Mobile Responsive across devices
                 </p>
-                <p className="py-1 border-b- border-gray-300 mx-8">
+                <p className="py-1 border-b-2 border-gray-300 mx-8">
                   Compatible with Google Chrome, Safari, Microsoft Edge, Samsung
                   & other major browsers.
                 </p>
