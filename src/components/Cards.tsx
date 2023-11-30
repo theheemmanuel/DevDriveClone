@@ -17,30 +17,30 @@ const Cards = () => {
               </h2>
               <p className="text-center font-bold text-2xl">$300</p>
               <div className="text-center font-medium">
-                <p className="py-1 border-b-2 mx-8 mt-8 border-t-2">
+                <p className="py-1 border-b-2 mx-8 mt-8 border-t-2 border-gray-300">
                   Fully-Featured Custom Website
                 </p>
-                <p className="py-1 border-b-2 mx-8">
+                <p className="py-1 border-b-2 border-gray-300 mx-8">
                   Mobile Responsive across devices
                 </p>
-                <p className="py-1 border-b-2 mx-8">
+                <p className="py-1 border-b- border-gray-300 mx-8">
                   Compatible with Google Chrome, Safari, Microsoft Edge, Samsung
                   & other major browsers.
                 </p>
-                <p className="py-1 border-b-2 mx-8">
+                <p className="py-1 border-b-2 border-gray-300 mx-8">
                   Well Designed and Fully Functional
                 </p>
-                <p className="py-1 border-b-2 mx-8">
+                <p className="py-1 border-b-2 border-gray-300 mx-8">
                   Reliable Hosting and Domain Providers
                 </p>
-                <p className="py-1 border-b-2 mx-8">
+                <p className="py-1 border-b-2 border-gray-300 mx-8">
                   Secured with trusted SSL Certificates
                 </p>
-                <p className="py-1 border-b-2 mx-8">
+                <p className="py-1 border-b-2 border-gray-300 mx-8">
                   Global Exposure through SEO Practices
                 </p>
-                <p className="py-1 border-b-2 mx-8">Post-Project Support</p>
-                <p className="py-1 border-b-2 mx-8">
+                <p className="py-1 border-b-2 border-gray-300 mx-8">Post-Project Support</p>
+                <p className="py-1 border-b-2 border-gray-300 mx-8">
                   Hosting and Domain up to 12-24 Months
                 </p>
               </div>
@@ -63,23 +63,23 @@ const Cards = () => {
               </h2>
               <p className="text-center font-bold text-2xl">$600</p>
               <div className="text-center font-medium">
-                <p className="py-2 border-b-2 mx-8 mt-8 border-t-2">
+                <p className="py-2 border-b-2 border-gray-300 mx-8 mt-8 border-t-2">
                   All Features in the Starter Plan
                 </p>
-                <p className="py-2 border-b-2 mx-8">User and Mobile Friendly</p>
-                <p className="py-2 border-b-2 mx-8">
+                <p className="py-2 border-b-2 border-gray-300 mx-8">User and Mobile Friendly</p>
+                <p className="py-2 border-b-2 border-gray-300 mx-8">
                   Industry Standard E-commerce and Marketing Features
                 </p>
-                <p className="py-2 border-b-2 mx-8">
+                <p className="py-2 border-b-2 border-gray-300 mx-8">
                   Full Designed and Featured to suit your needs
                 </p>
-                <p className="py-2 border-b-2 mx-8">
+                <p className="py-2 border-b-2 border-gray-300 mx-8">
                   Marketing copies that scales your needs
                 </p>
-                <p className="py-2 border-b-2 mx-8">
+                <p className="py-2 border-b-2 border-gray-300 mx-8">
                   Training on Website Developement
                 </p>
-                <p className="py-2 border-b-2 mx-8">
+                <p className="py-2 border-b-2 border-gray-300 mx-8">
                   {" "}
                   Sell and receive money from anywhere in the world through our
                   in-built e-commerce management systems and secured payment
@@ -105,7 +105,7 @@ const Cards = () => {
               {/* <p className="text-center font-bold text-4xl">$600</p> */}
 
               <div className="text-center font-medium">
-                <p className="py-2 border-b-2 mx-8 mt-8 border-t-2">
+                <p className="py-2 border-b-2 border-gray-300 mx-8 mt-8 border-t-2">
                   The Starter and Business Plan doesn't meet your needs? <br />
                   Speak to us, We will bring your Ideas to life.
                 </p>
