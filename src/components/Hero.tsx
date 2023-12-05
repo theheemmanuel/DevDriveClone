@@ -11,7 +11,7 @@ const Hero = () => {
         <h1 className="md:text-6xl sm:text-5xl text-black dark:text-white text-4xl font-bold py-6">
           Take Your brand to the Next{" "}
           <Typed
-            className="text-[#00DF9a]"
+            className="text-[#00DF9a] max-sm:block"
             strings={["Stage.", "Phase.", "Level."]}
             typeSpeed={150}
             backSpeed={100}
