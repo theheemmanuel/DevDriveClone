@@ -1,5 +1,4 @@
-// import React from "react";
-// import "animate.css/animate.min.css";
+
 import ScrollAnimation from "react-animate-on-scroll";
 
 const Cards = () => {
@@ -39,7 +38,9 @@ const Cards = () => {
                 <p className="py-1 border-b-2 border-gray-300 mx-8">
                   Global Exposure through SEO Practices
                 </p>
-                <p className="py-1 border-b-2 border-gray-300 mx-8">Post-Project Support</p>
+                <p className="py-1 border-b-2 border-gray-300 mx-8">
+                  Post-Project Support
+                </p>
                 <p className="py-1 border-b-2 border-gray-300 mx-8">
                   Hosting and Domain up to 12-24 Months
                 </p>
@@ -66,7 +67,9 @@ const Cards = () => {
                 <p className="py-2 border-b-2 border-gray-300 mx-8 mt-8 border-t-2">
                   All Features in the Starter Plan
                 </p>
-                <p className="py-2 border-b-2 border-gray-300 mx-8">User and Mobile Friendly</p>
+                <p className="py-2 border-b-2 border-gray-300 mx-8">
+                  User and Mobile Friendly
+                </p>
                 <p className="py-2 border-b-2 border-gray-300 mx-8">
                   Industry Standard E-commerce and Marketing Features
                 </p>

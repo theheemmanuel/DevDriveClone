@@ -10,6 +10,7 @@ import { useState } from "react";
 // import { MdOutlineDarkMode } from "react-icons/md";
 import { IoSunnyOutline } from "react-icons/io5";
 import { MdDarkMode } from "react-icons/md";
+import "animate.css/animate.min.css";
 
 function App() {
   const [darker, lighter] = useState(false);

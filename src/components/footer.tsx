@@ -1,5 +1,3 @@
-// import React from "react";
-
 import Frame7 from "../assets/S4.png";
 import Frame8 from "../assets/arrow.png";
 // import {
