@@ -73,8 +73,8 @@ const Navbar = () => {
           <div
             className={
               menu
-                ? "fixed left-0 top-0 pt-8 h-full dark:bg-black text-black dark:text-white bg-white p-4 w-[60%] text-center border-r md:hidden font-bold border-r-gray-900 ease-in-out duration-500"
-                : "fixed left-[-100%]"
+                ? "fixed left-0 top-0 pt-8 h-full dark:bg-black text-black dark:text-white bg-white p-4 w-[60%] text-center border-r md:hidden font-bold border-r-gray-900 duration-500 z-10"
+                : "fixed left-[-100%] duration-500"
             }
           >
             <h1 className="text-3xl font-bold text-[#00DF9a]">DevDrive.</h1>
